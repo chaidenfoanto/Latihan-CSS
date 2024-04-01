@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.grid-item{
+    background-color: #de8383;
+    padding: 20px;
+    text-align: center;
+}
+.flex-container {
+    display: flex; /* untuk menentukan bahwa kita akan membuat Flexbox Layout. */
+    flex-wrap: wrap; /* untuk memungkinkan item-item yang tidak muat di satu baris, dapat pindah ke baris berikutnya. */
+  }
+  
+  .flex-item {
+    background-color: #81d8e5;
+    padding: 20px;
+    text-align: center;
+    flex: 1 0 30%; /* untuk memberikan item-item lebar yang sama dengan ruang antar yang sama. */
+    margin: 10px;
+  }
